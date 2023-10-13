@@ -23,7 +23,6 @@ func Sum(n int64) string {
 		if (i%7!=0){
 			sum+=i
 			s+=strconv.Itoa(i)
-
 			if (int64(i)!=n) {
 				if(!(n==7&&i==6)){
 					s+="+"

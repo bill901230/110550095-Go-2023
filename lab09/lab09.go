@@ -24,7 +24,7 @@ func main() {
 			cnt += 1
 			if cnt <= *max {
 				id = e.Text
-				fmt.Printf("%d. 姓名:%s，", cnt, id)
+				fmt.Printf("%d. 名字:%s，", cnt, id)
 			}
 		} else if e.Attr("class") == "f3 push-content" {
 			if cnt <= *max {
